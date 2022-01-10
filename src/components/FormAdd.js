@@ -32,10 +32,10 @@ const FormAdd = ({ setCells, cells }) => {
             setinputUnitValue('');
         }
     } 
-    // Se recibira setCells(); para agregar un nuevo elemento
 
     return (
         <form className='form' onSubmit={ addCategory }>
+            <h2> Agregar Categoria </h2>
             <section className='form_section' >
                 <label> Escribe el Nombre   de la Categoria: </label>
                 <input type='text' value={ inputNameValue } placeholder='Nombre' onChange={ handleInputName }/>

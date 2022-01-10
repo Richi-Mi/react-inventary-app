@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const RowCells = ({ name, units, price, id }) => {
     return (
-        <tr className='row row_content'>
+        <tr className='row row_content animate__animated animate__bounceIn'>
             <td className='col_id'> { id } </td>
             <td className='col_name'> { name } </td>
             <td className='col_units'> { units } </td>
