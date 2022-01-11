@@ -38,7 +38,7 @@ const FormAdd = ({ setCells, cells }) => {
             <h2> Agregar Categoria </h2>
             <section className='form_section' >
                 <label> Escribe el Nombre   de la Categoria: </label>
-                <input type='text' value={ inputNameValue } placeholder='Nombre' onChange={ handleInputName }/>
+                <input type='text' value={ inputNameValue } placeholder='Nombre' onChange={ handleInputName } id='txt_name'/>
             </section>
             <section className='form_section' >
                 <label> Escribe el Precio   de la Categoria: </label>

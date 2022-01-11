@@ -2,8 +2,8 @@ import React, { Fragment, useState } from 'react';
 import FormAdd from './FormAdd';
 import RowCells from './RowCells';
 
-const Table = () => {
-    const [cells, setCells] = useState([]);
+const Table = ({ defaultCells = []}) => {
+    const [cells, setCells] = useState( defaultCells );
     // Se hara un map de cells y se agregara un <tr> por cada iteración
     return (
         <Fragment>

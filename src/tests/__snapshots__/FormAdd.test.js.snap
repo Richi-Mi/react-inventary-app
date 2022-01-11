@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` * Pruebas sobre el Componente <FormAdd />   - Debe Mostrar el Componente Correctamente 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <h2>
+     Agregar Categoria 
+  </h2>
+  <section
+    className="form_section"
+  >
+    <label>
+       Escribe el Nombre   de la Categoria: 
+    </label>
+    <input
+      id="txt_name"
+      onChange={[Function]}
+      placeholder="Nombre"
+      type="text"
+      value=""
+    />
+  </section>
+  <section
+    className="form_section"
+  >
+    <label>
+       Escribe el Precio   de la Categoria: 
+    </label>
+    <input
+      onChange={[Function]}
+      placeholder="Precio"
+      type="text"
+      value=""
+    />
+  </section>
+  <section
+    className="form_section"
+  >
+    <label>
+       Escribe la Cantidad de la Categoria: 
+    </label>
+    <input
+      onChange={[Function]}
+      placeholder="Cantidad"
+      type="text"
+      value=""
+    />
+  </section>
+  <section
+    className="form_section_submit"
+  >
+    <input
+      type="submit"
+      value="Agregar"
+    />
+  </section>
+</form>
+`;

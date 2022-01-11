@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` * Pruebas en el componente <Table />   - Debe Mostrar el Componente Table Correctamente 1`] = `
+<Fragment>
+  <header
+    className="header"
+  >
+    <h1
+      className="title_principal"
+    >
+       Inventary 
+    </h1>
+    <img
+      alt="inventary"
+      src="./logo_inventary.jpg"
+    />
+  </header>
+  <FormAdd
+    cells={Array []}
+    setCells={[Function]}
+  />
+  <table
+    className="table"
+    id="table_inventary"
+  >
+    <tbody
+      className="tconten"
+    >
+      <tr
+        className="row row_title"
+      >
+        <td>
+           ID 
+        </td>
+        <td>
+           Nombre 
+        </td>
+        <td>
+           Cantidad 
+        </td>
+        <td>
+           Precio 
+        </td>
+        <td>
+           Dinero Total 
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</Fragment>
+`;
